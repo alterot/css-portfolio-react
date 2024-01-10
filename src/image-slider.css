@@ -1,0 +1,53 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    
+}
+
+.img-slider__img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 0;
+    transition: translate 0.7s ease-in-out;
+}
+
+.portfolio-gallery__text {
+    font-size: 0.8rem;
+    text-align: center;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    bottom: 10px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    transition: translate 0.7s ease-in-out;
+  }
+
+  .portfolio-gallery__text a {
+    color: #fff;
+  }
+
+.img-slider__btn {
+    all: unset;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: background-color 100ms ease-in-out;
+}
+
+.img-slider__btn:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.img-slider__btn > * {
+    stroke: white;
+    width: 3rem;
+    height: 3rem;
+}
