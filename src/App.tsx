@@ -1,5 +1,5 @@
 import { ImageSlider } from "./ImageSlider"
-import "./app.css"
+import "./App.css"
 
 import potly0 from "./images/potly-orig.png"
 import potly1 from "./images/potly-ma.png"
